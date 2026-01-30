@@ -4,6 +4,8 @@ dim q1, pswd, pswdinpt
 q1 = msgbox("This Is The Useless Launcher Verifier, If you didn't intend to open this click 'No'", vbYesNo + vbQuestion ,"ULC")
     If q1 = vbNo Then
         WScript.Quit
+    If q1 = vbYes Then
+        msgbox("continuing... ")
     End If
 
 pswd = 150314
